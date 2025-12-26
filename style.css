@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Reala-Thin';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueThin-ovpea.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-ExtraLight';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueExtraLight-4nYxx.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-Light';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueLight-0v1ER.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-Regular';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueRegular-e9476.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-Medium';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueMedium-WprDE.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-SemiBold';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueSemiBold-aY5KR.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-Bold';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueBold-E4Omn.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-ExtraBold';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueExtraBold-OGgW4.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Reala-Black';
+    src: url("./fonts/raela-grotesque-font/RaelaGrotesqueBlack-Zp21m.ttf") format('truetype'),
+}
+
+
+
+
+
+body{
+    font-family: "Reala-Medium", sans-serif;
+    background-color: #050e27;
+    color: aliceblue;
+}
+
+#Titre{
+    font-family: "Reala-Medium", sans-serif;
+    color: aliceblue;
+    opacity: 20%;
+
+}
+
+#Header{
+    
+}
