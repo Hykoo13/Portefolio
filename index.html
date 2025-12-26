@@ -1,20 +1,313 @@
 <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haïk Monossian - Développeur Web & App</title>
+    <meta name="description"
+        content="Création de sites web et d'applications sur mesure de A à Z. Développement professionnel, design moderne et solutions digitales complètes.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
     <header>
-        <title>Portfolio</title>
-        <meta charset="UTF8">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="style.css">
+        <div class="header-content">
+            <div class="logo">Haïk Monossian</div>
+            <nav>
+                <button class="nav-btn" onclick="scrollToSection('services')">Services</button>
+                <button class="nav-btn" onclick="scrollToSection('process')">Processus</button>
+                <button class="nav-btn" onclick="scrollToSection('contact')">Contact</button>
+            </nav>
+        </div>
     </header>
-    <body>
-        <div id="Header" class="flex items-center justify-between h-[5em] border-b-2 border-[aliceblue]">
-            <h1 class="ml-8 text-xl flex justify-start tracking-widest">Haïk Monossian</h1>
-            <div class="mr-12 flex text-xl gap-10">
-                <button>Contact</button>
-                <button>Projets</button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Développeur Full-Stack</p>
+            <h1 class="hero-title">
+                Créateur de <span class="gradient-text">Sites Web</span><br>
+                & <span class="gradient-text">Applications</span>
+            </h1>
+            <p class="hero-description">
+                Je transforme vos idées en solutions digitales exceptionnelles.
+                De la conception à la mise en ligne, je vous accompagne dans la création
+                de sites web et d'applications sur mesure, performants et élégants.
+            </p>
+            <div class="hero-cta">
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Démarrer un projet</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('services')">Découvrir mes services</button>
             </div>
         </div>
-        <div class="flex ml-40">
-            <h2 class="mt-20 text-[4em] tracking-tight"><span id="Titre"> Développeur <br> en </span> <span class="font-[Reala-Bold]">cybersécurité</span></h2>
-            <div class="Langages"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Ce que je propose</p>
+                <h2 class="section-title">Services <span class="gradient-text">Premium</span></h2>
+                <p class="section-description">
+                    Des solutions complètes et personnalisées pour donner vie à vos projets digitaux
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Website Development -->
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Sites Web Sur Mesure</h3>
+                    <p>
+                        Création de sites web modernes, responsives et optimisés pour le référencement.
+                        De la vitrine au e-commerce, je conçois des expériences web qui convertissent.
+                    </p>
+                    <ul class="service-features">
+                        <li>Design moderne et responsive</li>
+                        <li>Optimisation SEO avancée</li>
+                        <li>Performance maximale</li>
+                        <li>Interface intuitive</li>
+                        <li>Hébergement et maintenance</li>
+                    </ul>
+                </div>
+
+                <!-- App Development -->
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Applications Web & Mobile</h3>
+                    <p>
+                        Développement d'applications web progressives (PWA) et mobiles performantes.
+                        Solutions cross-platform pour iOS et Android avec une expérience utilisateur fluide.
+                    </p>
+                    <ul class="service-features">
+                        <li>Applications cross-platform</li>
+                        <li>Interface utilisateur premium</li>
+                        <li>Synchronisation temps réel</li>
+                        <li>Notifications push</li>
+                        <li>Mode hors ligne</li>
+                    </ul>
+                </div>
+
+                <!-- Full Service -->
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Accompagnement Complet</h3>
+                    <p>
+                        Un service de A à Z incluant la stratégie, le design, le développement,
+                        le déploiement et la maintenance. Je m'occupe de tout pour votre tranquillité.
+                    </p>
+                    <ul class="service-features">
+                        <li>Consultation stratégique</li>
+                        <li>Design UI/UX professionnel</li>
+                        <li>Développement sur mesure</li>
+                        <li>Tests et optimisation</li>
+                        <li>Support continu</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </body>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Ma méthode</p>
+                <h2 class="section-title">Processus de <span class="gradient-text">Création</span></h2>
+                <p class="section-description">
+                    Une approche structurée pour garantir le succès de votre projet
+                </p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <div class="process-content">
+                        <h3>Découverte & Stratégie</h3>
+                        <p>
+                            Analyse de vos besoins, définition des objectifs et élaboration
+                            d'une stratégie digitale sur mesure pour votre projet.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <div class="process-content">
+                        <h3>Design & Prototypage</h3>
+                        <p>
+                            Création de maquettes interactives et design de l'interface utilisateur
+                            pour valider l'expérience avant le développement.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">3</div>
+                    <div class="process-content">
+                        <h3>Développement</h3>
+                        <p>
+                            Codage de votre solution avec les technologies les plus performantes,
+                            en respectant les meilleures pratiques et standards du web.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">4</div>
+                    <div class="process-content">
+                        <h3>Tests & Optimisation</h3>
+                        <p>
+                            Tests rigoureux sur tous les appareils, optimisation des performances
+                            et ajustements pour garantir une expérience parfaite.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">5</div>
+                    <div class="process-content">
+                        <h3>Lancement & Support</h3>
+                        <p>
+                            Mise en ligne de votre projet et accompagnement continu pour
+                            assurer son évolution et sa maintenance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Stack Technique</p>
+                <h2 class="section-title">Technologies <span class="gradient-text">Maîtrisées</span></h2>
+                <p class="section-description">
+                    Les outils et frameworks que j'utilise pour créer des solutions performantes
+                </p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon">⚛️</div>
+                    <div class="tech-name">React</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">📗</div>
+                    <div class="tech-name">Node.js</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🎨</div>
+                    <div class="tech-name">CSS3</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">💾</div>
+                    <div class="tech-name">MongoDB</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">🔷</div>
+                    <div class="tech-name">TypeScript</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">⚡</div>
+                    <div class="tech-name">Next.js</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Parlons de votre projet</p>
+                <h2 class="section-title">Prêt à <span class="gradient-text">Commencer</span> ?</h2>
+                <p class="section-description">
+                    Contactez-moi pour discuter de votre projet et obtenir un devis personnalisé
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon">📧</div>
+                        <a href="mailto:contact@haikmonossian.com">contact@haikmonossian.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">💼</div>
+                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">💻</div>
+                        <a href="https://github.com" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="window.location.href='mailto:contact@haikmonossian.com'">
+                    Envoyer un message
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Haïk Monossian. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                const headerHeight = document.querySelector('header').offsetHeight;
+                const sectionPosition = section.offsetTop - headerHeight;
+                window.scrollTo({
+                    top: sectionPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Add scroll effect to header
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 100) {
+                header.style.background = 'rgba(10, 14, 39, 0.95)';
+            } else {
+                header.style.background = 'rgba(10, 14, 39, 0.8)';
+            }
+
+            lastScroll = currentScroll;
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all service cards and process steps
+        document.querySelectorAll('.service-card, .process-step, .tech-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
+
+</html>
