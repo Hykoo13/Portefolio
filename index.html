@@ -7,6 +7,9 @@
     <title>Haïk Monossian - Développeur Web & App</title>
     <meta name="description"
         content="Création de sites web et d'applications sur mesure de A à Z. Développement professionnel, design moderne et solutions digitales complètes.">
+    <!-- Favicon SVG -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%23667eea'/><stop offset='100%' stop-color='%2300f2fe'/></linearGradient></defs><rect width='100' height='100' rx='25' fill='url(%23grad)'/><text x='50' y='65' font-family='sans-serif' font-weight='bold' font-size='50' fill='white' text-anchor='middle'>H</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <script>
@@ -74,20 +77,14 @@
             <div class="services-grid">
                 <!-- Project 1 -->
                 <div class="service-card">
-                    <div class="service-icon">
-                        <svg class="w-12 h-12 text-[#667eea]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                            </path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                        </svg>
+                    <div class="service-icon" style="height: 60px; margin-bottom: 1.5rem;">
+                        <img src="public/successfull.png" alt="Logo Successfull"
+                            style="height: 100%; width: auto; object-fit: contain; filter: drop-shadow(0 0 8px rgba(102, 126, 234, 0.4));">
                     </div>
                     <h3>Successfull.fr</h3>
                     <p>
-                        Plateforme web dédiée à la réussite et au développement. Conception et développement complet
-                        avec une interface utilisateur moderne et performante.
+                        Gros projet communautaire basé sur la collection de trophées de jeux multiplateformes.
+                        Plateforme complète pour les chasseurs de succès avec suivi et classements.
                     </p>
                     <div style="margin-top: 1.5rem;">
                         <a href="https://successfull.fr/" target="_blank" rel="noopener noreferrer"
@@ -99,18 +96,14 @@
 
                 <!-- Project 2 -->
                 <div class="service-card">
-                    <div class="service-icon">
-                        <svg class="w-12 h-12 text-[#f5576c]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="12" y1="8" x2="12" y2="16"></line>
-                            <line x1="8" y1="12" x2="16" y2="12"></line>
-                        </svg>
+                    <div class="service-icon" style="height: 60px; margin-bottom: 1.5rem;">
+                        <img src="public/leaguefinder.png" alt="Logo League Finder"
+                            style="height: 100%; width: auto; object-fit: contain; filter: drop-shadow(0 0 8px rgba(245, 87, 108, 0.4));">
                     </div>
                     <h3>League Finder</h3>
                     <p>
-                        Projet de jeu personnel permettant aux joueurs de trouver des coéquipiers. Application web
-                        interactive avec fonctionnalités en temps réel.
+                        Jeu de devinette interactif et multijoueur basé sur l'univers de League of Legends. Développé
+                        avec une stack moderne (Vite + React) pour des performances optimales.
                     </p>
                     <div style="margin-top: 1.5rem;">
                         <a href="https://league-finder.up.railway.app/" target="_blank" rel="noopener noreferrer"
@@ -197,6 +190,46 @@
                             class="w-12 h-12 hover:scale-110 transition-transform" />
                     </div>
                     <div class="tech-name">Docker</div>
+                </div>
+                <!-- ClickUp -->
+                <div class="tech-item group">
+                    <div class="tech-icon flex justify-center mb-4">
+                        <img src="https://cdn.simpleicons.org/clickup/7B68EE" alt="ClickUp"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
+                    </div>
+                    <div class="tech-name">ClickUp</div>
+                </div>
+                <!-- Jira -->
+                <div class="tech-item group">
+                    <div class="tech-icon flex justify-center mb-4">
+                        <img src="https://cdn.simpleicons.org/jira/0052CC" alt="Jira"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
+                    </div>
+                    <div class="tech-name">Jira</div>
+                </div>
+                <!-- GitHub -->
+                <div class="tech-item group">
+                    <div class="tech-icon flex justify-center mb-4">
+                        <img src="https://cdn.simpleicons.org/github/white" alt="GitHub"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
+                    </div>
+                    <div class="tech-name">GitHub</div>
+                </div>
+                <!-- Git -->
+                <div class="tech-item group">
+                    <div class="tech-icon flex justify-center mb-4">
+                        <img src="https://cdn.simpleicons.org/git/F05032" alt="Git"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
+                    </div>
+                    <div class="tech-name">Git</div>
+                </div>
+                <!-- Firebase -->
+                <div class="tech-item group">
+                    <div class="tech-icon flex justify-center mb-4">
+                        <img src="https://cdn.simpleicons.org/firebase/FFCA28" alt="Firebase"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
+                    </div>
+                    <div class="tech-name">Firebase</div>
                 </div>
             </div>
         </div>
