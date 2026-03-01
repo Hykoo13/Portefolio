@@ -34,8 +34,7 @@
         <div class="header-content">
             <div class="logo">Haïk Monossian</div>
             <nav>
-                <button class="nav-btn" onclick="scrollToSection('services')">Services</button>
-                <button class="nav-btn" onclick="scrollToSection('process')">Processus</button>
+                <button class="nav-btn" onclick="scrollToSection('projets')">Projets</button>
                 <button class="nav-btn" onclick="scrollToSection('contact')">Contact</button>
             </nav>
         </div>
@@ -55,162 +54,68 @@
                 de sites web et d'applications sur mesure, performants et élégants.
             </p>
             <div class="hero-cta">
-                <button class="btn btn-primary" onclick="scrollToSection('contact')">Démarrer un projet</button>
-                <button class="btn btn-secondary" onclick="scrollToSection('services')">Découvrir mes services</button>
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Me contacter</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('projets')">Découvrir mes projets</button>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
+    <!-- Projects Section -->
+    <section class="services" id="projets">
         <div class="container">
             <div class="section-header">
-                <p class="section-subtitle">Ce que je propose</p>
-                <h2 class="section-title">Services <span class="gradient-text">Premium</span></h2>
+                <p class="section-subtitle">Mes réalisations</p>
+                <h2 class="section-title">Mes <span class="gradient-text">Projets</span></h2>
                 <p class="section-description">
-                    Des solutions complètes et personnalisées pour donner vie à vos projets digitaux
+                    Découvrez une sélection de mes derniers projets web et applications
                 </p>
             </div>
 
             <div class="services-grid">
-                <!-- Website Development -->
+                <!-- Project 1 -->
                 <div class="service-card">
                     <div class="service-icon">
                         <svg class="w-12 h-12 text-[#667eea]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="2" y1="12" x2="22" y2="12"></line>
                             <path
-                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
                             </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
                         </svg>
                     </div>
-                    <h3>Sites Web Sur Mesure</h3>
+                    <h3>Successfull.fr</h3>
                     <p>
-                        Création de sites web modernes, responsives et optimisés pour le référencement.
-                        De la vitrine au e-commerce, je conçois des expériences web qui convertissent.
+                        Plateforme web dédiée à la réussite et au développement. Conception et développement complet
+                        avec une interface utilisateur moderne et performante.
                     </p>
-                    <ul class="service-features">
-                        <li>Design moderne et responsive</li>
-                        <li>Optimisation SEO avancée</li>
-                        <li>Performance maximale</li>
-                        <li>Interface intuitive</li>
-                        <li>Hébergement et maintenance</li>
-                    </ul>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://successfull.fr/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-secondary"
+                            style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Visiter le
+                            site</a>
+                    </div>
                 </div>
 
-                <!-- App Development -->
+                <!-- Project 2 -->
                 <div class="service-card">
                     <div class="service-icon">
                         <svg class="w-12 h-12 text-[#f5576c]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="16"></line>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
                         </svg>
                     </div>
-                    <h3>Applications Web & Mobile</h3>
+                    <h3>League Finder</h3>
                     <p>
-                        Développement d'applications web progressives (PWA) et mobiles performantes.
-                        Solutions cross-platform pour iOS et Android avec une expérience utilisateur fluide.
+                        Projet de jeu personnel permettant aux joueurs de trouver des coéquipiers. Application web
+                        interactive avec fonctionnalités en temps réel.
                     </p>
-                    <ul class="service-features">
-                        <li>Applications cross-platform</li>
-                        <li>Interface utilisateur premium</li>
-                        <li>Synchronisation temps réel</li>
-                        <li>Notifications push</li>
-                        <li>Mode hors ligne</li>
-                    </ul>
-                </div>
-
-                <!-- Full Service -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg class="w-12 h-12 text-[#4facfe]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                        </svg>
-                    </div>
-                    <h3>Accompagnement Complet</h3>
-                    <p>
-                        Un service de A à Z incluant la stratégie, le design, le développement,
-                        le déploiement et la maintenance. Je m'occupe de tout pour votre tranquillité.
-                    </p>
-                    <ul class="service-features">
-                        <li>Consultation stratégique</li>
-                        <li>Design UI/UX professionnel</li>
-                        <li>Développement sur mesure</li>
-                        <li>Tests et optimisation</li>
-                        <li>Support continu</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="process" id="process">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-subtitle">Ma méthode</p>
-                <h2 class="section-title">Processus de <span class="gradient-text">Création</span></h2>
-                <p class="section-description">
-                    Une approche structurée pour garantir le succès de votre projet
-                </p>
-            </div>
-
-            <div class="process-timeline">
-                <div class="process-step">
-                    <div class="process-number">1</div>
-                    <div class="process-content">
-                        <h3>Découverte & Stratégie</h3>
-                        <p>
-                            Analyse de vos besoins, définition des objectifs et élaboration
-                            d'une stratégie digitale sur mesure pour votre projet.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="process-step">
-                    <div class="process-number">2</div>
-                    <div class="process-content">
-                        <h3>Design & Prototypage</h3>
-                        <p>
-                            Création de maquettes interactives et design de l'interface utilisateur
-                            pour valider l'expérience avant le développement.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="process-step">
-                    <div class="process-number">3</div>
-                    <div class="process-content">
-                        <h3>Développement</h3>
-                        <p>
-                            Codage de votre solution avec les technologies les plus performantes,
-                            en respectant les meilleures pratiques et standards du web.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="process-step">
-                    <div class="process-number">4</div>
-                    <div class="process-content">
-                        <h3>Tests & Optimisation</h3>
-                        <p>
-                            Tests rigoureux sur tous les appareils, optimisation des performances
-                            et ajustements pour garantir une expérience parfaite.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="process-step">
-                    <div class="process-number">5</div>
-                    <div class="process-content">
-                        <h3>Lancement & Support</h3>
-                        <p>
-                            Mise en ligne de votre projet et accompagnement continu pour
-                            assurer son évolution et sa maintenance.
-                        </p>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://league-finder.up.railway.app/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-secondary"
+                            style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Explorer l'app</a>
                     </div>
                 </div>
             </div>
@@ -232,68 +137,66 @@
                 <!-- React -->
                 <div class="tech-item group">
                     <div class="tech-icon flex justify-center mb-4">
-                        <svg class="w-12 h-12 text-[#61DAFB]" viewBox="0 0 128 128">
-                            <path fill="currentColor"
-                                d="M117.5 33.5c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-1.5-.7-3.9-1.6-6.9-2.5c4.7-5.9 8.2-11.8 10-17.1c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.3 1.8-11.2 5.3-17.1 10c-.9-3-1.8-5.4-2.5-6.9c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.9 4.7-11.8 8.2-17.1 10c-.6-.3-1.3-.5-2.1-.5c-2.2 0-4 1.8-4 4c0 .7.2 1.4.5 2c-3 6.9-6.5 12.8-11.2 17.1c-1.5-.7-3.9-1.6-6.9-2.5c4.7-5.9 8.2-11.8 10-17.1c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.3 1.8-11.2 5.3-17.1 10c-.9-3-1.8-5.4-2.5-6.9c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.9 4.7-11.8 8.2-17.1 10c-.6-.3-1.3-.5-2.1-.5c-2.2 0-4 1.8-4 4c0 .7.2 1.4.5 2c-3 6.9-6.5 12.8-11.2 17.1c-1.5-.7-3.9-1.6-6.9-2.5c4.7-5.9 8.2-11.8 10-17.1c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.3 1.8-11.2 5.3-17.1 10c-.9-3-1.8-5.4-2.5-6.9c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.9 4.7-11.8 8.2-17.1 10c-.6-.3-1.3-.5-2.1-.5c-2.2 0-4 1.8-4 4c0 .7.2 1.4.5 2c-3 6.9-6.5 12.8-11.2 17.1c-1.5-.7-3.9-1.6-6.9-2.5c4.7-5.9 8.2-11.8 10-17.1c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.3 1.8-11.2 5.3-17.1 10c-.9-3-1.8-5.4-2.5-6.9c.3-.6.5-1.3.5-2.1c0-2.2-1.8-4-4-4c-.7 0-1.4.2-2 .5c-5.9 4.7-11.8 8.2-17.1 10c-.6-.3-1.3-.5-2.1-.5c-2.2 0-4 1.8-4 4c0 .7.2 1.4.5 2c-3 6.9-6.5 12.8-11.2 17.1" />
-                            <path fill="currentColor"
-                                d="M64 47.7c-9 0-16.3 7.3-16.3 16.3S55 80.3 64 80.3S80.3 73 80.3 64S73 47.7 64 47.7zm0 28c-6.5 0-11.7-5.2-11.7-11.7S57.5 52.3 64 52.3S75.7 57.5 75.7 64S70.5 75.7 64 75.7z" />
-                            <path fill="currentColor"
-                                d="M120 64c0-3.1-4.7-10.4-12.8-18.7c-1.3-1.4-2.8-2.7-4.3-4c-1.2-1-2.4-2-3.7-2.9c-.3-.2-.5-.4-.8-.6C88 30.2 76.5 26.3 64 26.3s-24 3.9-34.4 11.5c-.3.2-.5.4-.8.6c-1.3.9-2.5 1.9-3.7 2.9c-1.5 1.3-3 2.6-4.3 4C12.7 53.6 8 60.9 8 64c0 3.1 4.7 10.4 12.8 18.7c1.3 1.4 2.8 2.7 4.3 4c1.2 1 2.4 2 3.7 2.9c.3.2.5.4.8.6C40 97.8 51.5 101.7 64 101.7s24-3.9 34.4-11.5c.3-.2.5-.4.8-.6c1.3-.9 2.5-1.9 3.7-2.9c1.5-1.3 3-2.6 4.3-4c8.1-8.3 12.8-15.6 12.8-18.7zm-56 33.1c-11.1 0-21.3-3.4-30.6-10.1c.9-.8 1.9-1.6 2.8-2.4c1.1-1 2.4-2.1 3.5-3.1c11.1 9.3 26.6 9.3 37.7 0c1.2 1 2.4 2.1 3.5 3.1c1 .9 1.9 1.6 2.8 2.4c-9.3 6.7-19.5 10.1-30.6 10.1zM12.6 64c2-2.7 6-8.2 13-14.7c1-.9 2-1.8 3.1-2.7c1.2-1 2.4-1.9 3.7-2.8c10.4-7.5 24-7.5 34.4 0c1.3.9 2.5 1.8 3.7 2.8c1.1.9 2.1 1.8 3.1 2.7c7 6.5 11 12 13 14.7c-2 2.7-6 8.2-13 14.7c-1 .9-2 1.8-3.1 2.7c-1.2 1-2.4 1.9-3.7 2.8c-10.4 7.5-24 7.5-34.4 0c-1.3-.9-2.5-1.8-3.7-2.8c-1.1-.9-2.1-.1.8-3.1-2.7c-7-6.5-11-12-13-14.7z" />
-                        </svg>
+                        <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
                     </div>
                     <div class="tech-name">React</div>
                 </div>
                 <!-- Node.js -->
                 <div class="tech-item group">
                     <div class="tech-icon flex justify-center mb-4">
-                        <svg class="w-12 h-12 text-[#339933]" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm4 0h-2v-6h2v1.5c.33-.5.83-1.5 2-1.5c1.17 0 2 .83 2 2V17h-2v-4.5c0-.5-.17-1-1-1s-1 .5-1 1V17z" />
-                            <path fill="currentColor"
-                                d="M6 8.5c-.83 0-1.5 .67-1.5 1.5s.67 1.5 1.5 1.5s1.5 -.67 1.5 -1.5s-.67 -1.5 -1.5 -1.5z" />
-                        </svg>
+                        <img src="https://cdn.simpleicons.org/nodedotjs/339933" alt="Node.js"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
                     </div>
                     <div class="tech-name">Node.js</div>
                 </div>
-                <!-- Tailwind CSS (Replaces CSS3) -->
+                <!-- Tailwind CSS -->
                 <div class="tech-item group">
                     <div class="tech-icon flex justify-center mb-4">
-                        <svg class="w-12 h-12 text-[#06B6D4]" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8c1.2-1.6 2.6-2.2 4.2-1.8c.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8c-1.2 1.6-2.6 2.2-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8c1.2-1.6 2.6-2.2 4.2-1.8c.913.228 1.565.89 2.288 1.624c1.177 1.194 2.538 2.576 5.512 2.576c3.2 0 5.2-1.6 6-4.8c-1.2 1.6-2.6 2.2-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
-                        </svg>
+                        <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind CSS"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
                     </div>
                     <div class="tech-name">Tailwind CSS</div>
                 </div>
                 <!-- MongoDB -->
                 <div class="tech-item group">
                     <div class="tech-icon flex justify-center mb-4">
-                        <svg class="w-12 h-12 text-[#47A248]" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M17.193 11.235c-.414-3.522-1.92-5.467-3.344-6.84a1.868 1.868 0 0 0-.154-.143l-.008-.007C13.2.981 12 .133 12 .133s-1.2.848-1.687 4.108l-.008.007c-.053.047-.1.096-.154.143c-1.424 1.373-2.93 3.321-3.344 6.84c-.456 3.864 1.44 6.816 3.12 8.352c.24.216.48.408.7.576v2.184l1.374 1.374L13.374 22.348v-2.184c.22-.168.46-.36.7-.576c1.68-1.536 3.576-4.488 3.12-8.352ZM12.096 18.514c-1.728-1.584-3.36-4.177-2.976-7.513c.24-2.112 1.056-4.08 1.968-5.328c.192.816 1.008 4.272 1.008 4.272l1.392-1.92l-.192 1.44c1.296 1.44 1.776 3.408 1.776 5.856c0 1.968-.384 4.032-1.152 5.04l-.048.048l-.024.024c-.16.144-.31.294-.46.33a3.523 3.523 0 0 1-.3.144L12.096 18.514Z" />
-                        </svg>
+                        <img src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
                     </div>
                     <div class="tech-name">MongoDB</div>
                 </div>
                 <!-- TypeScript -->
                 <div class="tech-item group">
                     <div class="tech-icon flex justify-center mb-4">
-                        <svg class="w-12 h-12 text-[#3178C6]" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M1.125 0C.502 0 0 .502 0 1.125V22.875C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0H1.125zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361a5.093 5.093 0 0 0-.717-.26a5.453 5.453 0 0 0-.814-.142a6.607 6.607 0 0 0-.914-.051c-.439 0-.825.053-1.157.16c-.33.106-.606.259-.824.458a2.52 2.52 0 0 0-.528.694c-.13.28-.194.593-.194.937c0 .284.042.543.129.778c.085.234.21.445.375.632c.163.188.366.357.608.507c.24.15.514.29.824.42c.305.129.639.256.999.381c.36.126.732.26 1.115.405c.381.144.75.312 1.104.504c.353.192.668.423.944.693c.275.27.491.597.649.98c.156.383.234.843.234 1.38c0 .546-.101 1.04-.302 1.482a4.426 4.426 0 0 1-.849 1.192a5.55 5.55 0 0 1-1.347.88a6.38 6.38 0 0 1-1.78.435c-.63.072-1.32.108-2.071.108a10.04 10.04 0 0 1-1.687-.134a12.87 12.87 0 0 1-1.666-.414v-2.434c.414.192.85.362 1.305.51c.456.148.924.262 1.404.341c.481.079.957.118 1.429.118c.516 0 .973-.061 1.371-.183c.397-.123.729-.297.994-.523c.264-.225.46-.5.586-.826c.125-.326.188-.685.188-1.077c0-.284-.047-.549-.142-.796a2.296 2.296 0 0 0-.419-.661c-.183-.195-.42-.37-.714-.523a7.35 7.35 0 0 0-1.011-.422c-.372-.129-.773-.263-1.203-.404c-.431-.141-.856-.307-1.275-.499c-.419-.191-.796-.432-1.128-.722c-.334-.29-.6-.644-.801-1.061c-.2-.417-.301-.926-.301-1.528c0-.528.094-1.002.284-1.422c.19-.42.463-.78.817-1.08c.355-.3.79-.536 1.306-.708a5.592 5.592 0 0 1 1.706-.258zM3.862 10.103h9.096v2.135h-3.321V23.72H6.942V12.238H3.621v-2.135z" />
-                        </svg>
+                        <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
                     </div>
                     <div class="tech-name">TypeScript</div>
                 </div>
                 <!-- Next.js -->
                 <div class="tech-item group">
                     <div class="tech-icon flex justify-center mb-4">
-                        <svg class="w-12 h-12 text-white" viewBox="0 0 128 128">
-                            <path fill="currentColor"
-                                d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64s64-28.7 64-64S99.3 0 64 0zm31.7 93.6l-37.4-48c-1.3-1.7-1.3-4.1 0-5.8c1.3-1.7 3.5-1.7 4.8 0L98.5 86c1.3 1.7 1.3 4.1 0 5.8s-3.5 1.7-4.8 1.8zM42.7 41.6c0-2.2 1.8-4 4-4s4 1.8 4 4v44.8c0 2.2-1.8 4-4 4s-4-1.8-4-4V41.6z" />
-                        </svg>
+                        <img src="https://cdn.simpleicons.org/nextdotjs/white" alt="Next.js"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
                     </div>
                     <div class="tech-name">Next.js</div>
+                </div>
+                <!-- PostgreSQL -->
+                <div class="tech-item group">
+                    <div class="tech-icon flex justify-center mb-4">
+                        <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
+                    </div>
+                    <div class="tech-name">PostgreSQL</div>
+                </div>
+                <!-- Docker -->
+                <div class="tech-item group">
+                    <div class="tech-icon flex justify-center mb-4">
+                        <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker"
+                            class="w-12 h-12 hover:scale-110 transition-transform" />
+                    </div>
+                    <div class="tech-name">Docker</div>
                 </div>
             </div>
         </div>
@@ -392,8 +295,8 @@
             });
         }, observerOptions);
 
-        // Observe all service cards and process steps
-        document.querySelectorAll('.service-card, .process-step, .tech-item').forEach(el => {
+        // Observe all service cards and tech items
+        document.querySelectorAll('.service-card, .tech-item').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
             el.style.transition = 'all 0.6s ease-out';
